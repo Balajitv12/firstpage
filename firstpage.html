@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rescue Ride - Login</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Roboto, sans-serif;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #EA3C3C;
+      font-size: 48px;
+      font-weight: 600;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    hr {
+      width: 90%;
+      border: none;
+      height: 1px;
+      background-color: black;
+      opacity: 0.25;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .login-box {
+      width: 400px;
+      padding: 40px;
+      border: 1px solid black;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .login-box img {
+      width: 250px;
+      height: 250px;
+      margin-bottom: 30px;
+    }
+
+    .login-btn {
+      padding: 20px 40px;
+      border-radius: 18px;
+      color: white;
+      font-size: 32px;
+      font-weight: 600;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .user-btn {
+      background-color: #F96C00;
+    }
+
+    .driver-btn {
+      background-color: #EA3C3C;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🚑 Rescue Ride</h1>
+  <hr>
+
+  <div class="container">
+    <!-- User Login -->
+    <div class="login-box">
+      <a href="Loginpage.html">
+        <img src="profileimage.jpg" alt="User Image">
+      </a>
+      <a href="Loginpage.html">
+        <div class="login-btn user-btn">User Login</div>
+      </a>
+    </div>
+
+    <!-- Driver Login -->
+    <div class="login-box">
+      <a href="https://balajitv12.github.io/Userpage/Loginpage.html">
+        <img src="velimage.jpg" alt="Driver Image">
+      </a>
+      <a href="https://balajitv12.github.io/emblanceUser/login.html">
+        <div class="login-btn driver-btn">Driver Login</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
